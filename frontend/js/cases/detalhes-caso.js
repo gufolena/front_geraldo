@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         if (window.parent !== window) {
                             window.parent.carregarListagemCasos();
                         } else {
-                            window.location.href = 'listagem-caso.html';
+                            window.location.href = '../pages/cases/listagem-caso.html';
                         }
                     }, 2000);
                 } else {

@@ -24,7 +24,7 @@ function abrirDetalhesCaso(id) {
     localStorage.setItem('casoAtualId', id);
     
     // Redirecionar para a página de detalhes
-    window.location.href = 'detalhes-caso.html';
+    window.location.href = '../pages/cases/detalhes-caso.html';
 }
 
 // Função para buscar os casos da API

@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.carregarListagemCasos = async function() {
         try {
             // Buscar o conteúdo HTML da página listagem-caso.html
-            const response = await fetch('listagem-caso.html');
+            const response = await fetch('../pages/cases/listagem-caso.html'); 
             const html = await response.text();
             
             // Extrair apenas o conteúdo dentro do container principal
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
     async function carregarNovoCaso() {
         try {
             // Buscar o conteúdo HTML da página novo-caso.html
-            const response = await fetch('novo-caso.html');
+            const response = await fetch('../pages/cases/novo-caso.html');
             const html = await response.text();
             
             // Extrair apenas o conteúdo dentro do container principal
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
             localStorage.setItem('casoAtualId', id);
             
             // Buscar o conteúdo HTML da página detalhes-caso.html
-            const response = await fetch('detalhes-caso.html');
+            const response = await fetch('../pages/cases/detalhes-caso.html');
             const html = await response.text();
             
             // Extrair apenas o conteúdo dentro do container principal
