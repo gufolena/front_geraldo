@@ -30,7 +30,7 @@ function abrirDetalhesCaso(id) {
 // Função para buscar os casos da API
 async function carregarCasos() {
     try {
-        const response = await fetch('http://localhost:5000/api/casos');
+        const response = await fetch('https://back-geraldo.onrender.com/api/casos');
         
         if (!response.ok) {
             throw new Error('Erro ao carregar os casos');

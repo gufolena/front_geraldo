@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         try {
             // Endereço da API
-            const url = 'http://localhost:5000/api/auth/login';
+            const url = 'https://back-geraldo.onrender.com/api/auth/login';
             
             // Configuração da requisição
             const resposta = await fetch(url, {

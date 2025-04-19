@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         try {
             // Fazer a requisição para a API
-            const response = await fetch('http://localhost:5000/api/casos', {
+            const response = await fetch('https://back-geraldo.onrender.com/api/casos', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

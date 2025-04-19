@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
             
-            const response = await fetch(`http://localhost:5000/api/casos/${casoId}`);
+            const response = await fetch(`https://back-geraldo.onrender.com/api/casos/${casoId}`);
             
             if (!response.ok) {
                 throw new Error('Erro ao carregar detalhes do caso');
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             
             try {
-                const response = await fetch(`http://localhost:5000/api/casos/${casoId}`, {
+                const response = await fetch(`https://back-geraldo.onrender.com/api/casos/${casoId}`, {
                     method: 'DELETE',
                     headers: {
                         'Content-Type': 'application/json'
@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             
             try {
-                const response = await fetch(`http://localhost:5000/api/casos/${casoId}`, {
+                const response = await fetch(`https://back-geraldo.onrender.com/api/casos/${casoId}`, {
                     method: 'PUT',
                     headers: {
                         'Content-Type': 'application/json'
