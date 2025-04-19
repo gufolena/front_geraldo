@@ -9,7 +9,7 @@
 /* Estilização do corpo da página */
 body {
     /* Background com imagem - deixei comentado para você adicionar sua própria imagem */
-    background-image: url(../assets/img/dentista-perito-judicial-como-se-formar.png);
+    background-image: url(../../assets/img/dentista-perito-judicial-como-se-formar.png);
     background-color: #f0f0f04b; /* Cor de fallback caso a imagem não carregue */
     background-size: cover; /* Faz a imagem cobrir toda a tela */
     background-position: center; /* Centraliza a imagem */
