@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 // Redirecionar após 1.5 segundos para home.html
                 setTimeout(function() {
-                    window.location.href = '../pages/home.html'; 
+                    window.location.href = '../../pages/home.html'; 
                 }, 1500);
                 
             } else {
